@@ -1,7 +1,6 @@
 import rclpy as rp 
 from rclpy.node import Node
 from turtlesim.msg import Pose		# data(message) type
-from first_package_msgs.msg import CmdAndPoseVel
 
 class CmdAndPose(Node):
 	def __init__(self):
