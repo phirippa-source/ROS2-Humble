@@ -11,7 +11,7 @@ class TurtlesimPublisher(Node):
 	def callback_timer(self):
 		msg = Twist()
 		msg.linear.x = 2.0
-		msg.angular.z = 3.14
+		msg.angular.z = 1.57
 		self.publisher.publish(msg)
 
 def main(args=None):
