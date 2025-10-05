@@ -12,10 +12,10 @@ class TurtlesimSubscriber(Node):
 
 def main(args=None):
 	rp.init(args=args)
-	node_subscriber = TurtlesimSubscriber()
-	rp.spin(node_subscriber)
+	turtlesim_subscriber = TurtlesimSubscriber()
+	rp.spin(turtlesim_subscriber)
 
-	node_subscriber.destroy_node()
+	turtlesim_subscriber.destroy_node()
 	rp.shutdown()
 
 if __name__ == '__main__':
